@@ -47,6 +47,8 @@ gem "bootsnap", ">= 1.1.0", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+gem "whenever", require: false
+
 group :development, :test do
   gem "annotate"
   gem "awesome_print"
@@ -88,6 +90,7 @@ group :test do
   gem "rails-controller-testing"
   gem "rspec-json_matcher"
   gem "shoulda-matchers"
+  gem "whenever-test"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

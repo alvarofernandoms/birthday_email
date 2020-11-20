@@ -1,0 +1,6 @@
+pt-BR:
+  hello: "Olá mundo"
+  user_mailer:
+    birthday:
+      subject: Feliz Aniversário!
+      body: Nós te desejamos um feliz aniversário.
